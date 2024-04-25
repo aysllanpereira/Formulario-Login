@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(#49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 90vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+
+    .campo {
+        font-size: 1em;
+    }
+
+    form > div.campo {
+        background-color: #5f2c82;
+        border: 2px solid #5f2c82;
+        display: block;
+        width: 100%;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+    }
+
+    
+    form > div.campo > span {
+        color: white;
+        font-size: 1em;
+        width: 40px;
+        padding: 5px;
+        width: calc(100% - 20px);
+        transform: translateX(-235px);
+
+    }
+
+
+    div.campo > input {
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(100% - 85px);
+        height: 100%;
+        
+        border: 0px;
+        border-radius: 8px;
+        padding: 8px;
+        transform: translateY(-26px);
+    }
+    
+    div.campo > input:focus-within {
+        background-color: white;
+        border: none;
+    }
+    
+    
+    div.campo > label {
+        display: none;
+        
+    }
+}
+    
+
+
+@media screen and (min-width: 992px)  {
+
+    body {
+        background-image: linear-gradient(#49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario > p {
+        font-size: 1.5em;
+    }
+
+    .campo {
+        font-size: 1.5em;
+    }
+
+    form > div.campo {
+        background-color: #5f2c82;
+        border: 2px solid #5f2c82;
+        display: block;
+        width: 100%;
+        height: 40px;
+        border-radius: 8px;
+        margin: 5px 0px;
+    }
+
+    
+
+    form > div.campo > span {
+        color: white;
+        font-size: 1em;
+        width: 30px;
+        padding: 5px;
+        width: calc(100% - 10px);
+        transform: translateX(-210px);
+
+    }
+
+
+    div.campo > input {
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(100% - 75px);
+        height: 100%;
+        
+        border: 0px;
+        border-radius: 8px;
+        padding: 8px;
+        transform: translateY(-35px);
+    }
+    
+    div.campo > input:focus-within {
+        background-color: white;
+        border: none;
+    }
+    
+    
+    div.campo > label {
+        display: none;
+        
+    }
+}
